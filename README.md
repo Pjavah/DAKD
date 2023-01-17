@@ -23,4 +23,8 @@ Also, as you wondered why the MAE is so different with the k-NN regression, note
 
 ### EX3:</br>
 
-TBA
+With regards to your question about the dendrograms, the scale on the vertical axis is determined by the distance of the clusters from each other when they are formed. In this case the difference in the distance is explained by the linkage criteria: in complete linkage, the maximum distance, i.e. the distance on the "other side" of the compared cluster is compared, while in average linkage, the center points between clusters are compared when deciding what to merge.
+
+Your analysis there is good enough there, because at least you spent time thinking about it. I don't expect very good knowledge of dendrograms.
+
+Everything else looks correct.
